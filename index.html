@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+	</head>
+	<body>
+	</body>
+	<script>
+
+		// 1 - define computer play function - returns computer's choice
+		function computerPlay() {
+			return (Math.random() * 3).floor();
+		}
+
+		// 2 - get input from user
+		let playerSelection = window.prompt("Please enter 1 for rock, 2 for paper, or 3 for scissors:");
+
+		// 3 - single play function
+		function singleRound(playerSelection, computerSelection) {
+
+			let computerNumber = computerPlay();
+
+			// strategy for this function would be to compare user choice to computer selection and determine the winner, then console.log the results.
+
+		}
+
+		// 4 - repeated game - a game() function that simply calls singleRound() five times.
+
+	</script>
+</html>
